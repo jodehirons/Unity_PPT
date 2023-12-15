@@ -1,0 +1,55 @@
+<mxfile host="Electron" modified="2023-12-15T09:25:26.951Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="7c1chRTkNhobSAmsyTYy" version="22.1.2" type="device">
+  <diagram name="第 1 页" id="Yh7T6eXplZgcz_cllIPk">
+    <mxGraphModel dx="781" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rEya5IW_X-TTGtEuxu0x-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=14;fontStyle=1" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="270" as="sourcePoint" />
+            <mxPoint x="350" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rEya5IW_X-TTGtEuxu0x-1" value="Unity前端&lt;br style=&quot;font-size: 14px;&quot;&gt;（webgl）" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="150" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rEya5IW_X-TTGtEuxu0x-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=14;fontStyle=1" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="270" as="sourcePoint" />
+            <mxPoint x="550" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rEya5IW_X-TTGtEuxu0x-2" value="PHP代码文件" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="350" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rEya5IW_X-TTGtEuxu0x-4" value="MySQL数据库" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="550" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rEya5IW_X-TTGtEuxu0x-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.003;exitY=0.663;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.003;entryY=0.663;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;fontSize=14;fontStyle=1" edge="1" parent="1" source="rEya5IW_X-TTGtEuxu0x-2" target="rEya5IW_X-TTGtEuxu0x-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="280" as="sourcePoint" />
+            <mxPoint x="360" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rEya5IW_X-TTGtEuxu0x-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.003;exitY=0.663;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.003;entryY=0.663;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;fontSize=14;fontStyle=1" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="300" as="sourcePoint" />
+            <mxPoint x="470" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rEya5IW_X-TTGtEuxu0x-8" value="发出请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="238" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rEya5IW_X-TTGtEuxu0x-9" value="访问数据库" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="238" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rEya5IW_X-TTGtEuxu0x-10" value="返回信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="475" y="298" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rEya5IW_X-TTGtEuxu0x-11" value="返回信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="298" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

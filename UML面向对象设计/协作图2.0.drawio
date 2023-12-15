@@ -1,0 +1,185 @@
+<mxfile host="Electron" modified="2023-12-03T15:32:34.484Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="SzKkE983sa2S9lRYRNFt" version="22.0.2" type="device">
+  <diagram name="第 1 页" id="As8lVkmbUAsd8bCZIQvz">
+    <mxGraphModel dx="1036" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Dy1eOk2mH3elAQ3buIPI-25" value="玩家&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="66" y="809" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dy1eOk2mH3elAQ3buIPI-26" value="服务器" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="352" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dy1eOk2mH3elAQ3buIPI-27" value="界面" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="663" y="806" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dy1eOk2mH3elAQ3buIPI-28" value="数据库" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="352" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dy1eOk2mH3elAQ3buIPI-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="Dy1eOk2mH3elAQ3buIPI-27" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="126" y="822" as="sourcePoint" />
+            <mxPoint x="676" y="822" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dy1eOk2mH3elAQ3buIPI-30" value="1a.玩家信息（玩家选择本地游戏）&lt;br&gt;1b.玩家信息（玩家选择网络联机）&lt;br&gt;2b.选中好友联机邀请（玩家选择网络联机）&lt;br&gt;3.开始游戏信息&lt;br&gt;4a.方向控制信息&lt;br&gt;4b.传送门信息&lt;br&gt;5.排行榜请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Dy1eOk2mH3elAQ3buIPI-29" vertex="1" connectable="0">
+          <mxGeometry x="-0.212" relative="1" as="geometry">
+            <mxPoint x="46" y="-59" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TIEaQn5YlLK0wI22wNgb-1" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Dy1eOk2mH3elAQ3buIPI-25" target="Dy1eOk2mH3elAQ3buIPI-26" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="336" y="640" as="sourcePoint" />
+            <mxPoint x="386" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TIEaQn5YlLK0wI22wNgb-2" value="5.请求排行榜" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TIEaQn5YlLK0wI22wNgb-1" vertex="1" connectable="0">
+          <mxGeometry x="0.0021" y="2" relative="1" as="geometry">
+            <mxPoint x="-35" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TIEaQn5YlLK0wI22wNgb-3" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="208" y="673.5" as="sourcePoint" />
+            <mxPoint x="260" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TIEaQn5YlLK0wI22wNgb-6" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="438" y="833" as="sourcePoint" />
+            <mxPoint x="348" y="833" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TIEaQn5YlLK0wI22wNgb-7" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="356.51" y="815" as="sourcePoint" />
+            <mxPoint x="436.51" y="815" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TIEaQn5YlLK0wI22wNgb-8" value="1.1a.传递信息（玩家选择本地游戏）&lt;br&gt;1.1b.传递信息（玩家选择网络联机）&lt;br&gt;2.1b发送联机邀请&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;3.1.请求后台数据&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;4.2a.撞击状态数据变化请求&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;4.2b.传送门请求&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="294" y="586" width="197.88" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TIEaQn5YlLK0wI22wNgb-11" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1.2a.返回响应&lt;br&gt;&lt;/span&gt;1.1b.返回玩家信息&lt;br&gt;2.2b.返回联机邀请结果&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;3.2.返回后台数据&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;4.2a.返回撞击记录码&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;4.3b.返回传送门记录码&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;5.3.返回排行数据/自身分数&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="548" y="531" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TIEaQn5YlLK0wI22wNgb-13" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="Dy1eOk2mH3elAQ3buIPI-27" target="Dy1eOk2mH3elAQ3buIPI-26" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="336" y="680" as="sourcePoint" />
+            <mxPoint x="386" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TIEaQn5YlLK0wI22wNgb-15" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="549" y="680" as="sourcePoint" />
+            <mxPoint x="489" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TIEaQn5YlLK0wI22wNgb-17" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="515" y="591" as="sourcePoint" />
+            <mxPoint x="576" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TIEaQn5YlLK0wI22wNgb-18" value="1.1.2a.返回登录成功标识&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;5.2.返回排行数据/自身分数&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="366.13" y="395" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TIEaQn5YlLK0wI22wNgb-22" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="382" y="450" as="sourcePoint" />
+            <mxPoint x="382" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TIEaQn5YlLK0wI22wNgb-23" value="1.1.1a.发送玩家数据信息（玩家选择本地游戏）&lt;br&gt;1.1.1b.发送玩家数据信息（玩家选择网络联机）5.1.请求排行数据/自身分数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="208" y="328" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TIEaQn5YlLK0wI22wNgb-24" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="373" y="420" as="sourcePoint" />
+            <mxPoint x="373" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TIEaQn5YlLK0wI22wNgb-27" value="" style="shape=requiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="366.13" y="232.13" width="29.75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TIEaQn5YlLK0wI22wNgb-28" value="判断玩家是否选择发送自身分数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="326.51" y="207.13" width="110.99" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EspO-8MzNRVVd6cR7Y94-2" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="359" y="274" as="sourcePoint" />
+            <mxPoint x="409" y="274" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EspO-8MzNRVVd6cR7Y94-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="394" y="381.5" as="sourcePoint" />
+            <mxPoint x="394" y="434" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hDZyKKX8sA7jPIBwwi5F-1" value="1.3a.展示记录（玩家选择本地游戏）&lt;br&gt;1.3b.展示玩家记录、好友列表（玩家选择网络联机）loop while（匹配失败）&lt;br&gt;2.3b.显示联机邀请结果（玩家选择网络联机）loop while（匹配失败）&lt;br&gt;3.5.展示场景&lt;br&gt;4.5a.方向状态变换&lt;br&gt;4.5b.传送门显示&lt;br&gt;5.5.展示排行榜" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="395.88" y="815" as="geometry">
+            <mxPoint x="-2" y="76" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hDZyKKX8sA7jPIBwwi5F-5" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Dy1eOk2mH3elAQ3buIPI-27" target="Dy1eOk2mH3elAQ3buIPI-27" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="686" y="975" as="sourcePoint" />
+            <mxPoint x="746" y="815" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="693" y="860" />
+              <mxPoint x="746" y="860" />
+              <mxPoint x="746" y="821" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hDZyKKX8sA7jPIBwwi5F-6" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="738" y="867" as="sourcePoint" />
+            <mxPoint x="708" y="867" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hDZyKKX8sA7jPIBwwi5F-7" value="3.3.展示教程&lt;br&gt;3.4.渲染&lt;br&gt;3.5.循环生成场景&lt;br&gt;4.1a.撞击判定&lt;br&gt;4.4a.响应变换场景&lt;br&gt;4.1b.传送门判定&lt;br&gt;4.2b.传送门请求&lt;br&gt;4.4b.响应变换场景&lt;br&gt;5.4.渲染" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="663" y="885" width="103" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="hDZyKKX8sA7jPIBwwi5F-8" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0;exitY=0;exitDx=80;exitDy=12;exitPerimeter=0;" parent="1" source="hDZyKKX8sA7jPIBwwi5F-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="666" y="880" as="sourcePoint" />
+            <mxPoint x="696" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hDZyKKX8sA7jPIBwwi5F-9" value="Call to Self" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=12;" parent="1" vertex="1">
+          <mxGeometry x="574" y="880" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hDZyKKX8sA7jPIBwwi5F-15" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" target="Dy1eOk2mH3elAQ3buIPI-28" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="395" y="310.5" as="sourcePoint" />
+            <mxPoint x="425" y="295.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="395" y="334.5" />
+              <mxPoint x="448" y="334.5" />
+              <mxPoint x="448" y="295.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hDZyKKX8sA7jPIBwwi5F-16" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="437.5" y="340" as="sourcePoint" />
+            <mxPoint x="407.5" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hDZyKKX8sA7jPIBwwi5F-18" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="hDZyKKX8sA7jPIBwwi5F-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="445" y="296" as="sourcePoint" />
+            <mxPoint x="469" y="248.13" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hDZyKKX8sA7jPIBwwi5F-19" value="Call to Self" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=12;" parent="1" vertex="1">
+          <mxGeometry x="470" y="242.13" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hDZyKKX8sA7jPIBwwi5F-20" value="2.1.1b.向在线用户发起邀请" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="380" y="341" width="170" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
